@@ -24,20 +24,6 @@ The API follows standard REST conventions and is built for clarity, extensibilit
 - MongoDB
 - Mongoose
 
-## Project Structure
-
-```
-.
-├── models/
-├── routes/
-├── controllers/
-├── config/
-├── middleware/
-├── app.js
-├── server.js
-└── .env
-```
-
 ## Installation
 
 ```bash
@@ -51,17 +37,11 @@ npm install
 Create a `.env` file:
 
 ```
-PORT=3000
-MONGO_URI=your_mongodb_connection_string
+PORT=8080
+DATABASE_URL=your_mongodb_connection_string
 ```
 
 ## Running the App
-
-```bash
-npm run dev
-```
-
-or
 
 ```bash
 npm start
@@ -72,7 +52,7 @@ npm start
 Base URL:
 
 ```
-http://localhost:3000/api/components
+http://localhost:8080/components
 ```
 
 ### GET /
@@ -92,10 +72,11 @@ Example:
 ```json
 {
   "name": "Button",
-  "category": "UI",
-  "props": {
-    "variant": "primary"
-  }
+  "description": "Button component description",
+  "examples": [],
+  "properties": [],
+  "events": [],
+  "files": []
 }
 ```
 
@@ -106,19 +87,6 @@ Update component
 ### DELETE /:id
 
 Delete component
-
-## Data Model
-
-```json
-{
-  "_id": "string",
-  "name": "string",
-  "category": "string",
-  "props": "object",
-  "createdAt": "date",
-  "updatedAt": "date"
-}
-```
 
 ## Error Handling
 

@@ -3,9 +3,10 @@ const mongoose = require("mongoose");
 const app = express();
 require("dotenv").config();
 
-mongoose.connect(process.env.DATABASE_URL)
-  .then(() => console.log('Mongo connected'))
-  .catch(err => console.error(err))
+mongoose
+  .connect(process.env.DATABASE_URL)
+  .then(() => console.log("Mongo connected"))
+  .catch((err) => console.error(err));
 
 const db = mongoose.connection;
 
@@ -17,7 +18,8 @@ const PORT = process.env.PORT;
 app.use(express.json());
 
 const componentsRouter = require("./routes/components");
-app.use("/components", componentsRouter);
+app.use("/api/components", componentsRouter);
+// app.use("/components", componentsRouter);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
