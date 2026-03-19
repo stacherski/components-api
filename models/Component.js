@@ -1,5 +1,33 @@
 const mongoose = require("mongoose");
 
+const PropertySchema = new mongoose.Schema(
+  {
+    name: { type: String, required: true },
+    type: { type: String, required: true },
+    default: { type: mongoose.Schema.Types.Mixed },
+    required: { type: Boolean, default: false },
+    description: { type: String },
+  },
+  { _id: false },
+);
+
+const EventSchema = new mongoose.Schema(
+  {
+    name: { type: String, required: true },
+    example: { type: String },
+    description: { type: String },
+  },
+  { _id: false },
+);
+
+const ExampleSchema = new mongoose.Schema(
+  {
+    example: { type: String, required: true },
+    code: { type: String, required: true },
+  },
+  { _id: false },
+);
+
 const componentSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -9,14 +37,13 @@ const componentSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  category: {
-    type: String,
-    required: true,
-  },
-  properties: {
+  examples: {
     type: [Object],
-    required: true,
+    required: false,
   },
+  properties: { type: [PropertySchema], default: [], required: false },
+  events: { type: [EventSchema], default: [], required: false },
+  examples: { type: [ExampleSchema], default: [], required: false },
 });
 
 const Component = mongoose.model("Component", componentSchema);
