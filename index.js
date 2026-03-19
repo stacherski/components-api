@@ -20,7 +20,3 @@ app.use("/components", componentsRouter);
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
 });
-
-app.get("/", (req, res) => {
-  res.send(JSON.stringify({ hello: "world" }));
-});
