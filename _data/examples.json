@@ -1,469 +1,469 @@
 [
   {
-    "componentName": "Icon",
-    "componentSlug": "icon",
+    "cName": "Icon",
+    "slug": "icon",
     "example": "<as-icon name=\"pen\" size=\"xxxl\" color=\"--as-color-status-error\" label=\"There's been an error\"></as-icon>",
     "code": "<as-icon name=\"pen\" size=\"xxxl\" color=\"--as-color-status-error\" label=\"There's been an error\"></as-icon>",
     "codeToken": "<code class=\"token icon\">&lt;as-icon name=\"pen\" size=\"xxxl\" color=\"--as-color-status-error\" label=\"There's been an error\"&gt;&lt;/as-icon&gt;</code>"
   },
   {
-    "componentName": "Icon",
-    "componentSlug": "icon",
+    "cName": "Icon",
+    "slug": "icon",
     "example": "<as-icon name=\"user\" size=\"xxl\" color=\"--as-color-status-success\"></as-icon>",
     "code": "<as-icon name=\"user\" size=\"xxl\" color=\"--as-color-status-success\"></as-icon>",
     "codeToken": "<code class=\"token icon\">&lt;as-icon name=\"user\" size=\"xxl\" color=\"--as-color-status-success\"&gt;&lt;/as-icon&gt;</code>"
   },
   {
-    "componentName": "Icon",
-    "componentSlug": "icon",
+    "cName": "Icon",
+    "slug": "icon",
     "example": "<as-icon name=\"paperclip\" size=\"xl\" color=\"blue\"></as-icon>",
     "code": "<as-icon name=\"paperclip\" size=\"xl\" color=\"blue\"></as-icon>",
     "codeToken": "<code class=\"token icon\">&lt;as-icon name=\"paperclip\" size=\"xl\" color=\"blue\"&gt;&lt;/as-icon&gt;</code>"
   },
   {
-    "componentName": "Icon",
-    "componentSlug": "icon",
+    "cName": "Icon",
+    "slug": "icon",
     "example": "<as-icon name=\"--as-icon-document-signature\" size=\"xl\" color=\"#BADA55\"></as-icon>",
     "code": "<as-icon name=\"--as-icon-document-signature\" size=\"xl\" color=\"#BADA55\"></as-icon>",
     "codeToken": "<code class=\"token icon\">&lt;as-icon name=\"--as-icon-document-signature\" size=\"xl\" color=\"#BADA55\"&gt;&lt;/as-icon&gt;</code>"
   },
   {
-    "componentName": "Icon",
-    "componentSlug": "icon",
+    "cName": "Icon",
+    "slug": "icon",
     "example": "<as-icon flip-y></as-icon>",
     "code": "<as-icon flip-y></as-icon>",
     "codeToken": "<code class=\"token icon\">&lt;as-icon flip-y&gt;&lt;/as-icon&gt;</code>"
   },
   {
-    "componentName": "Icon",
-    "componentSlug": "icon",
+    "cName": "Icon",
+    "slug": "icon",
     "example": "<as-icon rotate=\"2.25turn\"></as-icon><as-icon rotate=\"-37deg\"></as-icon>",
     "code": "<as-icon rotate=\"2.25turn\"></as-icon><as-icon rotate=\"-37deg\"></as-icon>",
     "codeToken": "<code class=\"token icon\">&lt;as-icon rotate=\"2.25turn\"&gt;&lt;/as-icon&gt;&lt;as-icon rotate=\"-37deg\"&gt;&lt;/as-icon&gt;</code>"
   },
   {
-    "componentName": "Icon",
-    "componentSlug": "icon",
+    "cName": "Icon",
+    "slug": "icon",
     "example": "<as-icon image name=\"shutter\" flip-x size=\"xxxl\" rotate=\"-37deg\"></as-icon>",
     "code": "<as-icon image name=\"shutter\" flip-x size=\"xxxl\" rotate=\"-37deg\"></as-icon>",
     "codeToken": "<code class=\"token icon\">&lt;as-icon image name=\"shutter\" flip-x size=\"xxxl\" rotate=\"-37deg\"&gt;&lt;/as-icon&gt;</code>"
   },
   {
-    "componentName": "Toast",
-    "componentSlug": "toast",
+    "cName": "Toast",
+    "slug": "toast",
     "example": "<button class=\"btn\" onclick=\"new Toast('This is neutral message.')\">Neutral</button>",
     "code": "new Toast('This is neutral message.')",
     "codeToken": "<code class=\"token icon\">new Toast('This is neutral message.')</code>"
   },
   {
-    "componentName": "Toast",
-    "componentSlug": "toast",
+    "cName": "Toast",
+    "slug": "toast",
     "example": "<button class=\"btn\" onclick=\"new Toast('This is info message.',{type:'info'})\"><as-icon name=\"--as-icon-user-tie\"></as-icon>Info</button>",
     "code": "new Toast('This is info message.',{type:'info'})",
     "codeToken": "<code class=\"token icon\">new Toast('This is info message.',{type:'info'})</code>"
   },
   {
-    "componentName": "Toast",
-    "componentSlug": "toast",
+    "cName": "Toast",
+    "slug": "toast",
     "example": "<button class=\"btn\" onclick=\"new Toast('This is warning message.',{type:'warning'})\"><as-icon name=\"--as-icon-exclamation\"></as-icon>Warning</button>",
     "code": "new Toast('This is warning message.',{type:'warning'})\"",
     "codeToken": "<code class=\"token icon\">new Toast('This is warning message.',{type:'warning'})\"</code>"
   },
   {
-    "componentName": "Toast",
-    "componentSlug": "toast",
+    "cName": "Toast",
+    "slug": "toast",
     "example": "<button class=\"btn\" onclick=\"new Toast('This is error message.',{type:'error',sticky:true})\"><as-icon image name=\"--as-icon-shutter\" size=\"default\"></as-icon>Error</button>",
     "code": "new Toast('This is error message.',{type:'error',sticky:true})\"",
     "codeToken": "<code class=\"token icon\">new Toast('This is error message.',{type:'error',sticky:true})\"</code>"
   },
   {
-    "componentName": "Toast",
-    "componentSlug": "toast",
+    "cName": "Toast",
+    "slug": "toast",
     "example": "<button class=\"btn\" onclick=\"new Toast('This is success message.',{type:'success',timeout:10000})\"><as-icon name=\"pie-chart\"></as-icon>Success</button>",
     "code": "new Toast('This is success message.',{type:'success',timeout:10000})\"",
     "codeToken": "<code class=\"token icon\">new Toast('This is success message.',{type:'success',timeout:10000})\"</code>"
   },
   {
-    "componentName": "Select",
-    "componentSlug": "select",
+    "cName": "Select",
+    "slug": "select",
     "example": "<div><as-select style=\"width: 100%;\"><select id=\"test\"><option value=\"0\">Pick your poison</option><option value=\"1\">Arsenic</option><option value=\"2\">Cyanide</option><option value=\"3\">Acid</option><option value=\"4\" selected>Spider venom</option><option value=\"5\">Bleach</option><option value=\"6\">Methyl Alcohol</option></select></as-select></div><br><script>document.querySelector('select#test').addEventListener('change',e=>{    new Toast('Option ' + e.target.options[e.target.selectedIndex].text + ' selected')})</script>",
     "code": "<as-select>[select element]</as-select>",
     "codeToken": "<code class=\"token icon\">&lt;as-select&gt;[select element]&lt;/as-select&gt;</code>"
   },
   {
-    "componentName": "Select Multiple",
-    "componentSlug": "select-multiple",
+    "cName": "Select Multiple",
+    "slug": "select-multiple",
     "example": "<div><as-select-multiple style=\"width: 100%;\"><select multiple id=\"test\"><option value=\"0\">Pick your poison</option><option value=\"1\">Arsenic</option><option value=\"2\" selected>Cyanide</option><option value=\"3\">Acid</option><option value=\"4\" selected>Spider venom</option><option value=\"5\">Bleach</option><option value=\"6\">Methyl Alcohol</option></select></as-select-multiple></div><br><script>document.querySelector('select#test').addEventListener('change',e=>{    new Toast('Option ' + e.target.options[e.target.selectedIndex].text + ' selected')})</script>",
     "code": "<as-select-multiple>[select multiple element]</as-select-multiple>",
     "codeToken": "<code class=\"token icon\">&lt;as-select-multiple&gt;[select multiple element]&lt;/as-select-multiple&gt;</code>"
   },
   {
-    "componentName": "Select Multiple",
-    "componentSlug": "select-multiple",
+    "cName": "Select Multiple",
+    "slug": "select-multiple",
     "example": "<div><as-select-multiple locale=\"V\u00e6lg flere muligheder|S\u00f8g...|mere\" class=\"test2\"><select multiple id=\"test2\"><option value=\"0\">Pick your poison</option><option value=\"1\">Arsenic</option><option value=\"2\" selected>Cyanide</option><option value=\"3\">Acid</option><option value=\"4\" selected>Spider venom</option><option value=\"5\">Bleach</option><option value=\"6\">Methyl Alcohol</option></select></as-select-multiple></div>",
     "code": "<as-select-multiple locale=\"V\u00e6lg flere muligheder|S\u00f8g...|mere\">[select multiple element]</as-select-multiple>",
     "codeToken": "<code class=\"token icon\">&lt;as-select-multiple locale=\"V\u00e6lg flere muligheder|S\u00f8g...|mere\"&gt;[select multiple element]&lt;/as-select-multiple&gt;</code>"
   },
   {
-    "componentName": "Select 2 Range",
-    "componentSlug": "select-2-range",
+    "cName": "Select 2 Range",
+    "slug": "select-2-range",
     "example": "<as-select2range><select id=\"one\"><option>Pick your poison</option><option value=\"1\">Arsenic</option><option value=\"2\">Cyanide</option><option value=\"3\">Acid</option><option value=\"4\">Spider venom</option><option value=\"5\">Bleach</option><option value=\"6\">Methyl Alcohol</option></select></as-select2range><br><script>document.querySelector('select#one').addEventListener('change',e=>{    new Toast('Option ' + e.target.options[e.target.selectedIndex].text + ' selected')})</script>",
     "code": "<as-select2range>[select element]</as-select2range>",
     "codeToken": "<code class=\"token icon\">&lt;as-select2range&gt;[select element]&lt;/as-select2range&gt;</code>"
   },
   {
-    "componentName": "Select 2 Range",
-    "componentSlug": "select-2-range",
+    "cName": "Select 2 Range",
+    "slug": "select-2-range",
     "example": "<as-select2range><select id=\"two\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\" selected>4</option><option value=\"5\">5</option></select></as-select2range><br><script>document.querySelector('select#two').addEventListener('change',e=>{    new Toast('Option ' + e.target.options[e.target.selectedIndex].text + ' selected')})</script>",
     "code": "<as-select2range>[select element]</as-select2range>",
     "codeToken": "<code class=\"token icon\">&lt;as-select2range&gt;[select element]&lt;/as-select2range&gt;</code>"
   },
   {
-    "componentName": "Popout",
-    "componentSlug": "popout",
+    "cName": "Popout",
+    "slug": "popout",
     "example": "<as-popout hidden popout-id=\"mypopout\" button-text=\"Toggle\" button-class=\"btn\" popout-position=\"top\" popout-align=\"span-left\"><p>Popout content that is longer. Popout is top positioned, right aligned and spans to the left.</p></as-popout>",
     "code": "<as-popout popout-id=\"mypopout\" button-text=\"Toggle\" button-class=\"btn\" popout-position=\"top\" popout-align=\"span-left\">[content]</as-popout>",
     "codeToken": "<code class=\"token icon\">&lt;as-popout popout-id=\"mypopout\" button-text=\"Toggle\" button-class=\"btn\" popout-position=\"top\" popout-align=\"span-left\"&gt;[content]&lt;/as-popout&gt;</code>"
   },
   {
-    "componentName": "Popout",
-    "componentSlug": "popout",
+    "cName": "Popout",
+    "slug": "popout",
     "example": "<as-popout hidden button-text=\"Select action\" button-class=\"btn\" popout-position=\"bottom\" popout-align=\"span-right\"><div style=\"display: grid; gap: var(--as-space-xs);\"><button class=\"btn\" onclick=\"new Toast('Case closed!',{type:'info'})\">Close case<as-icon name=\"plus\" rotate=\"45deg\"></as-icon></button><button class=\"btn\" onclick=\"new Toast('Case archived!',{type:'warning'})\">Archive case<as-icon name=\"times-solid\"></as-icon></button><button class=\"btn\" onclick=\"new Toast('Case deleted!',{type:'success', sticky: true})\">Delete case<as-icon name=\"trashcan\"></as-icon></button></div></as-popout>",
     "code": "<as-popout button-text=\"Select action\" button-class=\"btn\" popout-position=\"bottom\" popout-align=\"span-right\">[content]</as-popout>",
     "codeToken": "<code class=\"token icon\">&lt;as-popout button-text=\"Select action\" button-class=\"btn\" popout-position=\"bottom\" popout-align=\"span-right\"&gt;[content]&lt;/as-popout&gt;</code>"
   },
   {
-    "componentName": "Popout",
-    "componentSlug": "popout",
+    "cName": "Popout",
+    "slug": "popout",
     "example": "<as-popout popout-id=\"filters-test\" button-text=\"Toggle filters\" button-class=\"btn\" popout-position=\"bottom\" popout-align=\"span-right\"><br><div style=\"display: flex; gap: var(--as-space-xs);\"><div class=\"data-line\"><label for=\"form-status\">Status</label><as-select><select id=\"form-status\" name=\"form-status\"><option>All</option><option value=\"1\">Active</option><option value=\"2\">Closed</option><option value=\"3\">Deleted</option></select></as-select></div><br><div class=\"data-line\"><label for=\"form-admin\">Administrator</label><as-select><select id=\"form-admin\" name=\"form-admin\"><option>All</option><option value=\"1\">Andrzej Stacherski</option><option value=\"2\">Yahor Siarhei</option><option value=\"3\">Szymon Struty\u0144ski</option><option value=\"4\">Pia Kristensen</option></select></as-select></div><br><div class=\"data-line\"><label for=\"form-date\">Date</label><as-date-picker><input id=\"form-date\" type=\"text\" placeholder=\"YYYY-MM-DD\" value=\"2025-11-05\"/></as-date-picker></div><br><div class=\"data-line\"><button style=\"align-self: end;\" class=\"btn\"><as-icon name=\"search\"></as-icon> Search</button></div></div></as-popout><br><style>as-popout[popout-id=\"filters-test\"] > [popover]{    max-width: unset;    width: fit-content;}</style>",
     "code": "<as-popout popout-id=\"filters-test\" button-text=\"Select action\" button-class=\"btn\" popout-position=\"bottom\" popout-align=\"span-right\">[content]</as-popout>",
     "codeToken": "<code class=\"token icon\">&lt;as-popout popout-id=\"filters-test\" button-text=\"Select action\" button-class=\"btn\" popout-position=\"bottom\" popout-align=\"span-right\"&gt;[content]&lt;/as-popout&gt;</code>"
   },
   {
-    "componentName": "Popout",
-    "componentSlug": "popout",
+    "cName": "Popout",
+    "slug": "popout",
     "example": "<as-popout breakpoint=\"800\"hidden popout-id=\"mypopout2\" button-text=\"Toggle\" button-class=\"btn\" popout-position=\"bottom\" popout-align=\"span-right\"><p>Popout content that is longer and can be displayed as inline.</p></as-popout>",
     "code": "<as-popout breakpoint=\"800\"hidden popout-id=\"mypopout2\" button-text=\"Toggle\" button-class=\"btn\" popout-position=\"bottom\" popout-align=\"span-right\">[content]</as-popout>",
     "codeToken": "<code class=\"token icon\">&lt;as-popout breakpoint=\"800\"hidden popout-id=\"mypopout2\" button-text=\"Toggle\" button-class=\"btn\" popout-position=\"bottom\" popout-align=\"span-right\"&gt;[content]&lt;/as-popout&gt;</code>"
   },
   {
-    "componentName": "Panel",
-    "componentSlug": "panel",
+    "cName": "Panel",
+    "slug": "panel",
     "example": "<as-panel id=\"test\"><div class=\"panel\"><div class=\"panel-heading\">Panel heading</div><div class=\"panel-body columns\"><div><p>Vivamus risus nunc, tempus vel tempus vitae, rhoncus vitae dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus a erat pulvinar, consectetur velit et, scelerisque erat. Curabitur ligula nunc, consequat vitae nisl sit amet, hendrerit varius quam. Integer gravida cursus lacinia. Aenean mauris mi, vestibulum ac sodales et, posuere a mi. Suspendisse sodales lectus quis faucibus tincidunt.</p></div><div><p>Vivamus risus nunc, tempus vel tempus vitae, rhoncus vitae dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus a erat pulvinar, consectetur velit et, scelerisque erat. Curabitur ligula nunc, consequat vitae nisl sit amet, hendrerit varius quam. Integer gravida cursus lacinia. Aenean mauris mi, vestibulum ac sodales et, posuere a mi. Suspendisse sodales lectus quis faucibus tincidunt.</p></div></div></div></as-panel><br>",
     "code": "<as-panel>[content]</as-panel>",
     "codeToken": "<code class=\"token icon\">&lt;as-panel&gt;[content]&lt;/as-panel&gt;</code>"
   },
   {
-    "componentName": "Table Search & Sort",
-    "componentSlug": "table-search-sort",
+    "cName": "Table Search & Sort",
+    "slug": "table-search-sort",
     "example": "<as-table-sort sort filter><table class=\"table\"><thead><tr><th>Property ID</th><th>Owner</th><th>Address</th></tr></thead><tbody><tr><td>P001</td><td>John Smith</td><td>12 Oak St</td></tr><tr><td>P002</td><td>Mary Johnson</td><td>45 Maple Ave</td></tr><tr><td>P003</td><td>James Lee</td><td>78 Pine Rd</td></tr><tr><td>P004</td><td>Linda Brown</td><td>34 Cedar St</td></tr><tr><td>P005</td><td>Michael Davis</td><td>89 Elm St</td></tr><tr><td>P006</td><td>Patricia Wilson</td><td>23 Birch Ln</td></tr><tr><td>P007</td><td>Robert Miller</td><td>56 Willow Dr</td></tr><tr><td>P008</td><td>Jennifer Taylor</td><td>101 Cherry Blvd</td></tr><tr><td>P009</td><td>William Moore</td><td>67 Poplar Ct</td></tr><tr><td>P010</td><td>Elizabeth Anderson</td><td>22 Spruce Way</td></tr></tbody></table></as-table-sort>",
     "code": "<as-table-sort sort filter columns=\"PropID,Tenant,Street\" omit=\"2\">[table HTML Element]</as-table-sort>",
     "codeToken": "<code class=\"token icon\">&lt;as-table-sort sort filter columns=\"PropID,Tenant,Street\" omit=\"2\"&gt;[table HTML Element]&lt;/as-table-sort&gt;</code>"
   },
   {
-    "componentName": "Table Actions",
-    "componentSlug": "table-actions",
+    "cName": "Table Actions",
+    "slug": "table-actions",
     "example": "<table class=\"table\" id=\"testtable\"><thead><tr><th>Property ID</th><th>Owner</th><th>Address</th></tr></thead><tbody><tr><td>P001</td><td>John Smith</td><td>12 Oak St</td></tr><tr><td>P002</td><td>Mary Johnson</td><td>45 Maple Ave</td></tr><tr><td>P003</td><td>James Lee</td><td>78 Pine Rd</td></tr><tr><td>P004</td><td>Linda Brown</td><td>34 Cedar St</td></tr><tr><td>P005</td><td>Michael Davis</td><td>89 Elm St</td></tr><tr><td>P006</td><td>Patricia Wilson</td><td>23 Birch Ln</td></tr><tr><td>P007</td><td>Robert Miller</td><td>56 Willow Dr</td></tr><tr><td>P008</td><td>Jennifer Taylor</td><td>101 Cherry Blvd</td></tr><tr><td>P009</td><td>William Moore</td><td>67 Poplar Ct</td></tr><tr><td>P010</td><td>Elizabeth Anderson</td><td>22 Spruce Way</td></tr></tbody></table><br><as-table-actions data-table=\"testtable\"></as-table-actions>",
     "code": "<as-table-actions data-table=\"testtable\"></as-table-actions>",
     "codeToken": "<code class=\"token icon\">&lt;as-table-actions data-table=\"testtable\"&gt;&lt;/as-table-actions&gt;</code>"
   },
   {
-    "componentName": "Tab Group",
-    "componentSlug": "tab-group",
+    "cName": "Tab Group",
+    "slug": "tab-group",
     "example": "<as-tab-group><as-tab icon-name=\"inbox\">Overview</as-tab><as-tab-panel><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id ante nisl. Nulla ac purus imperdiet ligula mollis lobortis quis sed nunc. Vivamus eu blandit mauris, vel fringilla nisl. Vestibulum quis sapien non quam euismod feugiat et eu dolor. Maecenas tincidunt at arcu ac ultrices. Maecenas placerat lorem vel risus cursus ultricies. Sed dictum mauris porta lectus commodo, non iaculis nisi rhoncus. Nam sit amet erat risus. Etiam nisl massa, facilisis eget eleifend nec, vehicula vitae lectus. Vestibulum ullamcorper felis et bibendum feugiat. Integer ante nisi, mattis et libero non, laoreet placerat metus.</p></as-tab-panel><as-tab icon-name=\"message\">Messages</as-tab><as-tab-panel><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id ante nisl. Nulla ac purus imperdiet ligula mollis lobortis quis sed nunc. Vivamus eu blandit mauris, vel fringilla nisl. Vestibulum quis sapien non quam euismod feugiat et eu dolor. Maecenas tincidunt at arcu ac ultrices. Maecenas placerat lorem vel risus cursus ultricies. Sed dictum mauris porta lectus commodo, non iaculis nisi rhoncus. Nam sit amet erat risus. Etiam nisl massa, facilisis eget eleifend nec, vehicula vitae lectus. Vestibulum ullamcorper felis et bibendum feugiat. Integer ante nisi, mattis et libero non, laoreet placerat metus.</p></as-tab-panel><as-tab selected icon-name=\"star\">Images</as-tab><as-tab-panel><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id ante nisl. Nulla ac purus imperdiet ligula mollis lobortis quis sed nunc. Vivamus eu blandit mauris, vel fringilla nisl. Vestibulum quis sapien non quam euismod feugiat et eu dolor. Maecenas tincidunt at arcu ac ultrices. Maecenas placerat lorem vel risus cursus ultricies. Sed dictum mauris porta lectus commodo, non iaculis nisi rhoncus. Nam sit amet erat risus. Etiam nisl massa, facilisis eget eleifend nec, vehicula vitae lectus. Vestibulum ullamcorper felis et bibendum feugiat. Integer ante nisi, mattis et libero non, laoreet placerat metus.</p></as-tab-panel><as-tab icon-name=\"list-ul\">Log</as-tab><as-tab-panel><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id ante nisl. Nulla ac purus imperdiet ligula mollis lobortis quis sed nunc. Vivamus eu blandit mauris, vel fringilla nisl. Vestibulum quis sapien non quam euismod feugiat et eu dolor. Maecenas tincidunt at arcu ac ultrices. Maecenas placerat lorem vel risus cursus ultricies. Sed dictum mauris porta lectus commodo, non iaculis nisi rhoncus. Nam sit amet erat risus. Etiam nisl massa, facilisis eget eleifend nec, vehicula vitae lectus. Vestibulum ullamcorper felis et bibendum feugiat. Integer ante nisi, mattis et libero non, laoreet placerat metus.</p></as-tab-panel></as-tab-group>",
     "code": "<as-tab-group><br>\u00a0 <as-tab icon-name=\"inbox\">Overview</as-tab><br>\u00a0 <as-tab-panel>[tab content]</as-tab-panel><br>\u00a0 <as-tab icon-name=\"message\">Messages</as-tab><br>\u00a0 <as-tab-panel>[tab content]</as-tab-panel><br>\u00a0 <as-tab selected icon-name=\"star\">Images</as-tab><br>\u00a0 <as-tab-panel>[tab content]</as-tab-panel><br>\u00a0 <as-tab selected icon-name=\"list-ul\">Log</as-tab><br>\u00a0 <as-tab-panel>[tab content]</as-tab-panel><br></as-tab-group>",
     "codeToken": "<code class=\"token icon\">&lt;as-tab-group&gt;<br>\u00a0 &lt;as-tab icon-name=\"inbox\"&gt;Overview&lt;/as-tab&gt;<br>\u00a0 &lt;as-tab-panel&gt;[tab content]&lt;/as-tab-panel&gt;<br>\u00a0 &lt;as-tab icon-name=\"message\"&gt;Messages&lt;/as-tab&gt;<br>\u00a0 &lt;as-tab-panel&gt;[tab content]&lt;/as-tab-panel&gt;<br>\u00a0 &lt;as-tab selected icon-name=\"star\"&gt;Images&lt;/as-tab&gt;<br>\u00a0 &lt;as-tab-panel&gt;[tab content]&lt;/as-tab-panel&gt;<br>\u00a0 &lt;as-tab selected icon-name=\"list-ul\"&gt;Log&lt;/as-tab&gt;<br>\u00a0 &lt;as-tab-panel&gt;[tab content]&lt;/as-tab-panel&gt;<br>&lt;/as-tab-group&gt;</code>"
   },
   {
-    "componentName": "Form Validation",
-    "componentSlug": "form-validation",
+    "cName": "Form Validation",
+    "slug": "form-validation",
     "example": "<div style=\"display: grid; gap: var(--as-space-m);\" class=\"form\"><form><as-form-validation type-mismatch=\"Dette felt er af den forkerte type\" class=\"data-line\"><label for=\"myemail\">Email</label><input id=\"myemail\" type=\"email\" required//></as-form-validation><as-form-validation class=\"data-line\"><label for=\"mytextarea\">My textarea (min length 20 characters)</label><textarea id=\"mytextarea\" minlength=\"20\"></textarea></as-form-validation><button class=\"btn\" type=\"submit\">Submit</button></form></div><br><script>document.addEventListener('as-form-validation:error', e=>{    new Toast(`${e.detail.fieldid} -> ${e.detail.message}`)});document.addEventListener('as-form-validation:success', e=>{    new Toast(`${e.detail.fieldid} validated successfully!`)})</script>",
     "code": "<as-form-validation type-mismatch=\"Dette felt er af den forkerte type\">[form input / form textarea]</as-form-validation>",
     "codeToken": "<code class=\"token icon\">&lt;as-form-validation type-mismatch=\"Dette felt er af den forkerte type\"&gt;[form input / form textarea]&lt;/as-form-validation&gt;</code>"
   },
   {
-    "componentName": "Character Counter",
-    "componentSlug": "character-counter",
+    "cName": "Character Counter",
+    "slug": "character-counter",
     "example": "<div class=\"data-line\"><textarea id=\"mytextarea\">This text length is already counted</textarea></div><br><div style=\"margin-block-start: var(--as-space-m); display: flex; justify-content: flex-end;\"><as-char-counter no-messages data-input=\"#mytextarea\"></as-char-counter></div>",
     "code": "<as-char-counter no-messages data-input=\"#mytextarea\"></as-char-counter>",
     "codeToken": "<code class=\"token icon\">&lt;as-char-counter no-messages data-input=\"#mytextarea\"&gt;&lt;/as-char-counter&gt;</code>"
   },
   {
-    "componentName": "Character Counter",
-    "componentSlug": "character-counter",
+    "cName": "Character Counter",
+    "slug": "character-counter",
     "example": "<div class=\"data-line\"><input type=\"text\" class=\"myinput\" value=\"This text length is already counted\"/></div><br><div style=\"margin-block-start: var(--as-space-m); display: flex; justify-content: flex-end;\"><as-char-counter data-input=\".myinput\"></as-char-counter></div>",
     "code": "<as-char-counter data-input=\".myinput\"></as-char-counter>",
     "codeToken": "<code class=\"token icon\">&lt;as-char-counter data-input=\".myinput\"&gt;&lt;/as-char-counter&gt;</code>"
   },
   {
-    "componentName": "Character Counter",
-    "componentSlug": "character-counter",
+    "cName": "Character Counter",
+    "slug": "character-counter",
     "example": "<div class=\"data-line\"><input type=\"text\" class=\"myinput2\" value=\"This text length is already counted\"/></div><br><div style=\"margin-block-start: var(--as-space-m); display: flex; justify-content: flex-end;\"><as-char-counter no-count data-input=\".myinput2\"></as-char-counter></div>",
     "code": "<as-char-counter no-count data-input=\".myinput2\"></as-char-counter>",
     "codeToken": "<code class=\"token icon\">&lt;as-char-counter no-count data-input=\".myinput2\"&gt;&lt;/as-char-counter&gt;</code>"
   },
   {
-    "componentName": "Show / Hide Password",
-    "componentSlug": "show-hide-password",
+    "cName": "Show / Hide Password",
+    "slug": "show-hide-password",
     "example": "<div class=\"data-line\"><label for=\"password1\">Password</label><as-show-hide-password id=\"a\"><input value=\"test1234\" id=\"password1\" name=\"password1\" type=\"password\"/></as-show-hide-password></div><br><script>document.querySelector('as-show-hide-password#a').addEventListener('as-show-hide-password:show', e=>{   console.log(e.detail); new Toast('Password 1 shown')});document.querySelector('as-show-hide-password#a').addEventListener('as-show-hide-password:hide', e=>{    console.log(e.detail);new Toast('Password 1 hidden')})</script>",
     "code": "<as-show-hide-password>[input element]</as-show-hide-password>",
     "codeToken": "<code class=\"token icon\">&lt;as-show-hide-password&gt;[input element]&lt;/as-show-hide-password&gt;</code>"
   },
   {
-    "componentName": "Show / Hide Password",
-    "componentSlug": "show-hide-password",
+    "cName": "Show / Hide Password",
+    "slug": "show-hide-password",
     "example": "<div class=\"data-line\"><label for=\"password2\">Password</label><as-show-hide-password id=\"b\" labels=\"Vis,Skjul\" icons=\"--as-icon-eye,--as-icon-eye-slash\" event-prefix=\"as-show-hide\"><input value=\"test1234\" id=\"password2\" name=\"password2\" type=\"password\"/></as-show-hide-password></div><br><script>document.querySelector('as-show-hide-password#b').addEventListener('as-show-hide-password:show', e=>{    console.log(e.detail);new Toast('Password 2 shown')});document.querySelector('as-show-hide-password#b').addEventListener('as-show-hide-password:hide', e=>{    console.log(e.detail);new Toast('Password 2 hidden')})</script>",
     "code": "<as-show-hide-password labels=\"Vis,Skjul\" icons=\"--as-icon-eye,--as-icon-eye-slash\" event-prefix=\"as-show-hide\">[input element]</as-show-hide-password>",
     "codeToken": "<code class=\"token icon\">&lt;as-show-hide-password labels=\"Vis,Skjul\" icons=\"--as-icon-eye,--as-icon-eye-slash\" event-prefix=\"as-show-hide\"&gt;[input element]&lt;/as-show-hide-password&gt;</code>"
   },
   {
-    "componentName": "Date Picker",
-    "componentSlug": "date-picker",
+    "cName": "Date Picker",
+    "slug": "date-picker",
     "example": "<as-date-picker yearspan=\"30\"><input id=\"mydate2\" type=\"text\" placeholder=\"YYYY-MM-DD\" value=\"2025-11-05\"/></as-date-picker>",
     "code": "<as-date-picker>[text input]</as-date-picker>",
     "codeToken": "<code class=\"token icon\">&lt;as-date-picker&gt;[text input]&lt;/as-date-picker&gt;</code>"
   },
   {
-    "componentName": "Date Picker",
-    "componentSlug": "date-picker",
+    "cName": "Date Picker",
+    "slug": "date-picker",
     "example": "<as-date-picker reverse locale=\"da-DK\" yearspan=\"30\"><input id=\"mydate\" type=\"text\"/></as-date-picker>",
     "code": "<as-date-picker reverse locale=\"da-DK\">[text input]</as-date-picker>",
     "codeToken": "<code class=\"token icon\">&lt;as-date-picker reverse locale=\"da-DK\"&gt;[text input]&lt;/as-date-picker&gt;</code>"
   },
   {
-    "componentName": "Date Picker",
-    "componentSlug": "date-picker",
+    "cName": "Date Picker",
+    "slug": "date-picker",
     "example": "<as-date-picker disabled reverse locale=\"da-DK\" yearspan=\"30\"><input id=\"mydate\" type=\"text\" value=\"{system.date}\"/></as-date-picker>",
     "code": "<as-date-picker disabled reverse locale=\"da-DK\">[text input]</as-date-picker>",
     "codeToken": "<code class=\"token icon\">&lt;as-date-picker disabled reverse locale=\"da-DK\"&gt;[text input]&lt;/as-date-picker&gt;</code>"
   },
   {
-    "componentName": "Command menu",
-    "componentSlug": "command-menu",
+    "cName": "Command menu",
+    "slug": "command-menu",
     "example": "<as-command-menu options=\"options\" keys=\"Meta+K\" locale=\"locale\"></as-command-menu>",
     "code": "<as-command-menu options=\"options\" keys=\"Meta+K\" locale=\"locale\"></as-command-menu>",
     "codeToken": "<code class=\"token icon\">&lt;as-command-menu options=\"options\" keys=\"Meta+K\" locale=\"locale\"&gt;&lt;/as-command-menu&gt;</code>"
   },
   {
-    "componentName": "Search menu",
-    "componentSlug": "search-menu",
+    "cName": "Search menu",
+    "slug": "search-menu",
     "example": "<as-search-menu method=\"post\" action=\"action=search&amp;searchmethod=0&amp;search=\" search-page-id=\"267\" placeholder=\"Search site for...\" keys=\"Meta+U\"></as-search-menu>",
     "code": "<as-search-menu method=\"post\" action=\"action=search&searchmethod=0&search=\" placeholder=\"Search site for...\" keys=\"Meta+U\"></as-search-menu>",
     "codeToken": "<code class=\"token icon\">&lt;as-search-menu method=\"post\" action=\"action=search&searchmethod=0&search=\" placeholder=\"Search site for...\" keys=\"Meta+U\"&gt;&lt;/as-search-menu&gt;</code>"
   },
   {
-    "componentName": "Drawer",
-    "componentSlug": "drawer",
+    "cName": "Drawer",
+    "slug": "drawer",
     "example": "<as-drawer><p>Content</p></as-drawer>",
     "code": "<as-drawer><p>Content</p></as-drawer>",
     "codeToken": "<code class=\"token icon\">&lt;as-drawer&gt;&lt;p&gt;Content&lt;/p&gt;&lt;/as-drawer&gt;</code>"
   },
   {
-    "componentName": "Drawer",
-    "componentSlug": "drawer",
+    "cName": "Drawer",
+    "slug": "drawer",
     "example": "<as-drawer position=\"left\" button-text=\"Open from left\"><p>Content</p></as-drawer>",
     "code": "<as-drawer position=\"left\" button-text=\"Open from left\"><p>Content</p></as-drawer>",
     "codeToken": "<code class=\"token icon\">&lt;as-drawer position=\"left\" button-text=\"Open from left\"&gt;&lt;p&gt;Content&lt;/p&gt;&lt;/as-drawer&gt;</code>"
   },
   {
-    "componentName": "Drawer",
-    "componentSlug": "drawer",
+    "cName": "Drawer",
+    "slug": "drawer",
     "example": "<as-drawer position=\"top\" button-text=\"Open from top\"><p>Content</p></as-drawer>",
     "code": "<as-drawer position=\"top\" button-text=\"Open from top\"><p>Content</p></as-drawer>",
     "codeToken": "<code class=\"token icon\">&lt;as-drawer position=\"top\" button-text=\"Open from top\"&gt;&lt;p&gt;Content&lt;/p&gt;&lt;/as-drawer&gt;</code>"
   },
   {
-    "componentName": "Drawer",
-    "componentSlug": "drawer",
+    "cName": "Drawer",
+    "slug": "drawer",
     "example": "<as-drawer position=\"right\" button-text=\"Open from right\"><p>Content</p></as-drawer>",
     "code": "<as-drawer position=\"right\" button-text=\"Open from right\"><p>Content</p></as-drawer>",
     "codeToken": "<code class=\"token icon\">&lt;as-drawer position=\"right\" button-text=\"Open from right\"&gt;&lt;p&gt;Content&lt;/p&gt;&lt;/as-drawer&gt;</code>"
   },
   {
-    "componentName": "Drawer",
-    "componentSlug": "drawer",
+    "cName": "Drawer",
+    "slug": "drawer",
     "example": "<as-drawer position=\"center\" button-text=\"Open at center\"><p>Content</p></as-drawer>",
     "code": "<as-drawer position=\"center\" button-text=\"Open at center\"><p>Content</p></as-drawer>",
     "codeToken": "<code class=\"token icon\">&lt;as-drawer position=\"center\" button-text=\"Open at center\"&gt;&lt;p&gt;Content&lt;/p&gt;&lt;/as-drawer&gt;</code>"
   },
   {
-    "componentName": "Gauge",
-    "componentSlug": "gauge",
+    "cName": "Gauge",
+    "slug": "gauge",
     "example": "<as-gauge>30</as-gauge>",
     "code": "<as-gauge>30</as-gauge>",
     "codeToken": "<code class=\"token icon\">&lt;as-gauge&gt;30&lt;/as-gauge&gt;</code>"
   },
   {
-    "componentName": "Gauge",
-    "componentSlug": "gauge",
+    "cName": "Gauge",
+    "slug": "gauge",
     "example": "<as-gauge showmax reverse size=\"8\" max=\"150\" track=\"--as-color-status-warning\" thumb=\"--as-color-accent-strong\" speed=\"5\" delay=\"500\">50</as-gauge>",
     "code": "<as-gauge showmax reverse size=\"8\" max=\"150\" track=\"--as-color-status-warning\" thumb=\"--as-color-accent-strong\" speed=\"5\" delay=\"500\">50</as-gauge>",
     "codeToken": "<code class=\"token icon\">&lt;as-gauge showmax reverse size=\"8\" max=\"150\" track=\"--as-color-status-warning\" thumb=\"--as-color-accent-strong\" speed=\"5\" delay=\"500\"&gt;50&lt;/as-gauge&gt;</code>"
   },
   {
-    "componentName": "Gauge",
-    "componentSlug": "gauge",
+    "cName": "Gauge",
+    "slug": "gauge",
     "example": "<as-gauge showmax size=\"7\" max=\"123\" bg=\"--as-color-background-nav-weak\" track=\"--as-color-status-warning\" thumb=\"--as-color-accent-strong\" speed=\"5\" delay=\"750\">55</as-gauge>",
     "code": "<as-gauge showmax size=\"7\" max=\"123\" bg=\"--as-color-background-nav-weak\" track=\"--as-color-status-warning\" thumb=\"--as-color-accent-strong\" speed=\"5\" delay=\"750\">55</as-gauge>",
     "codeToken": "<code class=\"token icon\">&lt;as-gauge showmax size=\"7\" max=\"123\" bg=\"--as-color-background-nav-weak\" track=\"--as-color-status-warning\" thumb=\"--as-color-accent-strong\" speed=\"5\" delay=\"750\"&gt;55&lt;/as-gauge&gt;</code>"
   },
   {
-    "componentName": "Gauge",
-    "componentSlug": "gauge",
+    "cName": "Gauge",
+    "slug": "gauge",
     "example": "<as-gauge showmax half size=\"8\" max=\"150\" thumb=\"--as-color-status-error-weak\" speed=\"5\" delay=\"500\">73</as-gauge>",
     "code": "<as-gauge showmax half size=\"8\" max=\"150\" thumb=\"--as-color-status-error-weak\" speed=\"5\" delay=\"500\">73</as-gauge>",
     "codeToken": "<code class=\"token icon\">&lt;as-gauge showmax half size=\"8\" max=\"150\" thumb=\"--as-color-status-error-weak\" speed=\"5\" delay=\"500\"&gt;73&lt;/as-gauge&gt;</code>"
   },
   {
-    "componentName": "Gauge",
-    "componentSlug": "gauge",
+    "cName": "Gauge",
+    "slug": "gauge",
     "example": "<as-gauge showmax reverse half size=\"12\" max=\"150\" thumb=\"--as-color-status-success-weak\" speed=\"1\" delay=\"1500\">107</as-gauge>",
     "code": "<as-gauge showmax reverse half size=\"12\" max=\"150\" thumb=\"--as-color-status-success-weak\" speed=\"1\" delay=\"1500\">107</as-gauge>",
     "codeToken": "<code class=\"token icon\">&lt;as-gauge showmax reverse half size=\"12\" max=\"150\" thumb=\"--as-color-status-success-weak\" speed=\"1\" delay=\"1500\"&gt;107&lt;/as-gauge&gt;</code>"
   },
   {
-    "componentName": "Gauge",
-    "componentSlug": "gauge",
+    "cName": "Gauge",
+    "slug": "gauge",
     "example": "<as-gauge half size=\"3\" max=\"100\" thumb=\"--as-color-status-success-weak\" speed=\"2\" delay=\"500\">67</as-gauge>",
     "code": "<as-gauge half size=\"3\" max=\"100\" thumb=\"--as-color-status-success-weak\" speed=\"2\" delay=\"500\">67</as-gauge>",
     "codeToken": "<code class=\"token icon\">&lt;as-gauge half size=\"3\" max=\"100\" thumb=\"--as-color-status-success-weak\" speed=\"2\" delay=\"500\"&gt;67&lt;/as-gauge&gt;</code>"
   },
   {
-    "componentName": "Relative Time",
-    "componentSlug": "relative-time",
+    "cName": "Relative Time",
+    "slug": "relative-time",
     "example": "<as-relative-time>08-12-2025</as-relative-time>",
     "code": "<as-relative-time>08-12-2025</as-relative-time>",
     "codeToken": "<code class=\"token icon\">&lt;as-relative-time&gt;08-12-2025&lt;/as-relative-time&gt;</code>"
   },
   {
-    "componentName": "Relative Time",
-    "componentSlug": "relative-time",
+    "cName": "Relative Time",
+    "slug": "relative-time",
     "example": "<as-relative-time disabled>08-12-2026</as-relative-time>",
     "code": "<as-relative-time disabled>08-12-2026</as-relative-time>",
     "codeToken": "<code class=\"token icon\">&lt;as-relative-time disabled&gt;08-12-2026&lt;/as-relative-time&gt;</code>"
   },
   {
-    "componentName": "Relative Time",
-    "componentSlug": "relative-time",
+    "cName": "Relative Time",
+    "slug": "relative-time",
     "example": "<as-relative-time>2025-12-18T13:00</as-relative-time>",
     "code": "<as-relative-time>2025-12-18T13:00</as-relative-time>",
     "codeToken": "<code class=\"token icon\">&lt;as-relative-time&gt;2025-12-18T13:00&lt;/as-relative-time&gt;</code>"
   },
   {
-    "componentName": "Relative Time",
-    "componentSlug": "relative-time",
+    "cName": "Relative Time",
+    "slug": "relative-time",
     "example": "<div style=\"display: flex; gap: var(--as-space-s); align-items: center;\"><as-icon size=\"l\" name=\"--as-icon-calendar\"></as-icon><as-relative-time>2025-12-18T13:00</as-relative-time></div>",
     "code": "<as-relative-time>2025-12-18T13:00</as-relative-time>",
     "codeToken": "<code class=\"token icon\">&lt;as-relative-time&gt;2025-12-18T13:00&lt;/as-relative-time&gt;</code>"
   },
   {
-    "componentName": "Relative Time",
-    "componentSlug": "relative-time",
+    "cName": "Relative Time",
+    "slug": "relative-time",
     "example": "<as-relative-time notime>2025-12-18T13:00</as-relative-time>",
     "code": "<as-relative-time notime>2025-12-18T13:00</as-relative-time>",
     "codeToken": "<code class=\"token icon\">&lt;as-relative-time notime&gt;2025-12-18T13:00&lt;/as-relative-time&gt;</code>"
   },
   {
-    "componentName": "Class Toggle",
-    "componentSlug": "class-toggle",
+    "cName": "Class Toggle",
+    "slug": "class-toggle",
     "example": "<as-class-toggle button-class=\"btn btn-outline\" button-text=\"Toggle\" target-element=\".test\" target-class=\"open\" target-state=\"true\" icon-name=\"pen\" icon-rotate=\"1turn\"></as-class-toggle><br><div class=\"test\">Lorem ipsum</div><br><style> .test    {        margin-block-start: var(--as-space-l);        padding: var(--as-space-l);        border-radius: var(--as-border-radius);        background-color: var(--as-color-background-nav);        transition: all var(--as-time-s);        color: var(--as-color-accent)    }    .open    {        padding: var(--as-space-xl);        border-radius: var(--as-border-radius-m);        background-color: var(--as-color-accent);        color: var(--as-color-text-button)    }<br></style>",
     "code": "<as-class-toggle button-class=\"btn btn-outline\" button-text=\"Toggle\" target-element=\".test\" target-class=\"open\" target-state=\"true\" icon-name=\"pen\" icon-rotate=\"1turn\"></as-class-toggle>",
     "codeToken": "<code class=\"token icon\">&lt;as-class-toggle button-class=\"btn btn-outline\" button-text=\"Toggle\" target-element=\".test\" target-class=\"open\" target-state=\"true\" icon-name=\"pen\" icon-rotate=\"1turn\"&gt;&lt;/as-class-toggle&gt;</code>"
   },
   {
-    "componentName": "Class Toggle",
-    "componentSlug": "class-toggle",
+    "cName": "Class Toggle",
+    "slug": "class-toggle",
     "example": "<as-class-toggle button-class=\"btn btn-warning\" button-text=\"Make it pop\" target-element=\".test2\" target-class=\"open2\" icon-name=\"plus\" icon-rotate=\"0.125turn\"></as-class-toggle><br><div class=\"test2\">I will pop</div><br><style> .test2    {        width: 0;        height: 0;        padding: 0;        overflow: hidden;        opacity: 0;        margin-block-start: var(--as-space-l);        border-radius: var(--as-border-radius);        background-color: var(--as-color-background-nav);        transition: all var(--as-time-s);        color: var(--as-color-accent)    }    .open2    {        opacity: 1;        width: auto;        height: auto;        padding: var(--as-space-xl);        border-radius: var(--as-border-radius-m);        background-color: var(--as-color-accent);        color: var(--as-color-text-button)    }<br></style>",
     "code": "<as-class-toggle button-class=\"btn btn-warning\" button-text=\"Make it pop\" target-element=\".test2\" target-class=\"open2\" icon-name=\"plus\" icon-rotate=\"0.125turn\"></as-class-toggle>",
     "codeToken": "<code class=\"token icon\">&lt;as-class-toggle button-class=\"btn btn-warning\" button-text=\"Make it pop\" target-element=\".test2\" target-class=\"open2\" icon-name=\"plus\" icon-rotate=\"0.125turn\"&gt;&lt;/as-class-toggle&gt;</code>"
   },
   {
-    "componentName": "Class Toggle",
-    "componentSlug": "class-toggle",
+    "cName": "Class Toggle",
+    "slug": "class-toggle",
     "example": "<as-class-toggle button-class=\"btn btn-error\" button-text=\"Make it pop twice\" target-element=\".test5|.test6\" target-class=\"open5|open5\" icon-name=\"--as-icon-pie-chart\" icon-rotate=\"1turn\"></as-class-toggle><br><div class=\"test5\">I will pop first!</div><br><div class=\"test6\">No, I will pop first!</div><br><style> .test5,    .test6    {        width: 0;        height: 0;        padding: 0;        overflow: hidden;        opacity: 0;        margin-block-start: var(--as-space-l);        border-radius: var(--as-border-radius);        background-color: var(--as-color-background-nav);        transition: all var(--as-time-s);        color: var(--as-color-accent)    }    .open5    {        opacity: 1;        width: auto;        height: auto;        padding: var(--as-space-xl);        border-radius: var(--as-border-radius-m);        background-color: var(--as-color-accent);        color: var(--as-color-text-button)    }<br></style>",
     "code": "<as-class-toggle button-class=\"btn btn-error\" button-text=\"Make it pop twice\" target-element=\".test5|.test6\" target-class=\"open5|open5\" icon-name=\"--as-icon-pie-chart\" icon-rotate=\"1turn\"></as-class-toggle>",
     "codeToken": "<code class=\"token icon\">&lt;as-class-toggle button-class=\"btn btn-error\" button-text=\"Make it pop twice\" target-element=\".test5|.test6\" target-class=\"open5|open5\" icon-name=\"--as-icon-pie-chart\" icon-rotate=\"1turn\"&gt;&lt;/as-class-toggle&gt;</code>"
   },
   {
-    "componentName": "Class Toggle",
-    "componentSlug": "class-toggle",
+    "cName": "Class Toggle",
+    "slug": "class-toggle",
     "example": "<as-class-toggle button-class=\"btn btn-success\" button-text=\"I'm a lonely button\" target-element=\".test3\" target-class=\"open3\"></as-class-toggle><br><div class=\"test3\">C'mon baby!</div><br><style> .test3    {        margin-block-start: var(--as-space-l);        padding: var(--as-space-l);        border-radius: var(--as-border-radius);        background-color: var(--as-color-background-nav);        transition: all var(--as-time-s);        color: var(--as-color-accent)    }    .open3    {        padding: var(--as-space-xl);        border-radius: var(--as-border-radius-m);        background-color: var(--as-color-accent);        color: var(--as-color-text-button)    }<br></style>",
     "code": "<as-class-toggle button-class=\"btn btn-success\" button-text=\"I'm a lonely button\" target-element=\".test3\" target-class=\"open3\"></as-class-toggle>",
     "codeToken": "<code class=\"token icon\">&lt;as-class-toggle button-class=\"btn btn-success\" button-text=\"I'm a lonely button\" target-element=\".test3\" target-class=\"open3\"&gt;&lt;/as-class-toggle&gt;</code>"
   },
   {
-    "componentName": "Class Toggle",
-    "componentSlug": "class-toggle",
+    "cName": "Class Toggle",
+    "slug": "class-toggle",
     "example": "<as-class-toggle button-class=\"btn btn-transparent\" target-element=\".test4\" target-class=\".open4\" icon-name=\"--as-icon-star\" icon-rotate=\"3turn\"></as-class-toggle><br><div class=\"test4\">I'm a star!!!</div><br><style> .test4    {        margin-block-start: var(--as-space-l);        padding: var(--as-space-l);        border-radius: var(--as-border-radius);        background-color: var(--as-color-background-nav);        transition: all var(--as-time-s);        color: var(--as-color-accent)    }    .open4    {        padding: var(--as-space-xl);        border-radius: var(--as-border-radius-m);        background-color: var(--as-color-accent);        color: var(--as-color-text-button)    }<br></style>",
     "code": "<as-class-toggle button-class=\"btn btn-transparent\" target-element=\".test4\" target-class=\".open4\" icon-name=\"--as-icon-star\" icon-rotate=\"3turn\"></as-class-toggle>",
     "codeToken": "<code class=\"token icon\">&lt;as-class-toggle button-class=\"btn btn-transparent\" target-element=\".test4\" target-class=\".open4\" icon-name=\"--as-icon-star\" icon-rotate=\"3turn\"&gt;&lt;/as-class-toggle&gt;</code>"
   },
   {
-    "componentName": "Dot Matrix Clock",
-    "componentSlug": "dot-matrix-clock",
+    "cName": "Dot Matrix Clock",
+    "slug": "dot-matrix-clock",
     "example": "<as-dot-matrix-clock></as-dot-matrix-clock>",
     "code": "<as-dot-matrix-clock></as-dot-matrix-clock>",
     "codeToken": "<code class=\"token icon\">&lt;as-dot-matrix-clock&gt;&lt;/as-dot-matrix-clock&gt;</code>"
   },
   {
-    "componentName": "Dot Matrix Clock",
-    "componentSlug": "dot-matrix-clock",
+    "cName": "Dot Matrix Clock",
+    "slug": "dot-matrix-clock",
     "example": "<as-dot-matrix-clock size=\"--as-size-xxl\" digit-color=\"--as-color-accent-strong\" digit-bg=\"--as-color-status-warning-strong\"></as-dot-matrix-clock>",
     "code": "<as-dot-matrix-clock size=\"--as-size-xxl\" digit-color=\"--as-color-accent-strong\" digit-bg=\"--as-color-status-warning-strong\"></as-dot-matrix-clock>",
     "codeToken": "<code class=\"token icon\">&lt;as-dot-matrix-clock size=\"--as-size-xxl\" digit-color=\"--as-color-accent-strong\" digit-bg=\"--as-color-status-warning-strong\"&gt;&lt;/as-dot-matrix-clock&gt;</code>"
   },
   {
-    "componentName": "Dot Matrix Clock",
-    "componentSlug": "dot-matrix-clock",
+    "cName": "Dot Matrix Clock",
+    "slug": "dot-matrix-clock",
     "example": "<as-dot-matrix-clock size=\"40px\" digit-bg=\"--as-color-background-nav-weak\" digit-color=\"--as-color-status-warning-strong\"></as-dot-matrix-clock>",
     "code": "<as-dot-matrix-clock size=\"40px\" digit-bg=\"--as-color-background-nav-weak\" digit-color=\"--as-color-status-warning-strong\"></as-dot-matrix-clock>",
     "codeToken": "<code class=\"token icon\">&lt;as-dot-matrix-clock size=\"40px\" digit-bg=\"--as-color-background-nav-weak\" digit-color=\"--as-color-status-warning-strong\"&gt;&lt;/as-dot-matrix-clock&gt;</code>"
   },
   {
-    "componentName": "Carousel / Slider",
-    "componentSlug": "carousel-slider",
+    "cName": "Carousel / Slider",
+    "slug": "carousel-slider",
     "example": "<as-carousel style=\"margin-block: var(--as-space-l);\" hidden gap=\"14\" speed=\"400\" delay=\"3\" slideid=\"item\"><br><ul><br>  <li item>Slide 0</li><br>  <li item>Slide 1</li><br>  <li item>Slide 2</li><br>  <li item>Slide 3</li><br>  <li item>Slide 4</li><br>  <li item>Slide 5</li><br>  <li item>Slide 6</li><br>  <li item>Slide 7</li><br>  <li item>Slide 8</li><br>  <li item>Slide 9</li><br>  <li item>Slide 10</li><br>  <li item>Slide 11</li><br></ul></as-carousel>",
     "code": "<as-carousel hidden gap=\"14\" speed=\"400\" delay=\"3\" slideid=\"item\">[slides]</as-carousel>",
     "codeToken": "<code class=\"token icon\">&lt;as-carousel hidden gap=\"14\" speed=\"400\" delay=\"3\" slideid=\"item\"&gt;[slides]&lt;/as-carousel&gt;</code>"
   },
   {
-    "componentName": "Graph",
-    "componentSlug": "graph",
+    "cName": "Graph",
+    "slug": "graph",
     "example": "<as-graph controls markers data-data=\"{&quot;palette&quot;:[&quot;#a6cee3&quot;,&quot;#1f78b4&quot;,&quot;#b2df8a&quot;,&quot;#33a02c&quot;,&quot;#fb9a99&quot;,&quot;#e31a1c&quot;,&quot;#fdbf6f&quot;,&quot;#ff7f00&quot;,&quot;#cab2d6&quot;,&quot;#6a3d9a&quot;,&quot;#ffff99&quot;,&quot;#b15928&quot;],&quot;resolution&quot;:7,&quot;step&quot;:3,&quot;charttype&quot;:1,&quot;title&quot;:&quot;Energy consumption&quot;,&quot;xtitle&quot;:&quot;Period&quot;,&quot;ytitle&quot;:&quot;Consumption in [kWh]&quot;,&quot;data&quot;:[{&quot;label&quot;:&quot;2024&quot;,&quot;value&quot;:127.85,&quot;unit&quot;:&quot;kWh&quot;,&quot;level&quot;:0,&quot;drilldown&quot;:{&quot;data&quot;:[{&quot;label&quot;:&quot;01-2024&quot;,&quot;value&quot;:127.85,&quot;unit&quot;:&quot;kWh&quot;,&quot;level&quot;:1,&quot;drilldown&quot;:{&quot;data&quot;:[{&quot;label&quot;:&quot;Week 1 - 2024&quot;,&quot;value&quot;:127.85,&quot;unit&quot;:&quot;kWh&quot;,&quot;level&quot;:2,&quot;drilldown&quot;:{&quot;data&quot;:[{&quot;label&quot;:&quot;01-01-2024&quot;,&quot;value&quot;:59.79,&quot;unit&quot;:&quot;kWh&quot;,&quot;level&quot;:3,&quot;drilldown&quot;:{&quot;data&quot;:[{&quot;label&quot;:&quot;00:00&quot;,&quot;value&quot;:4.48,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;01:00&quot;,&quot;value&quot;:0.84,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;02:00&quot;,&quot;value&quot;:4.85,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;03:00&quot;,&quot;value&quot;:4,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;04:00&quot;,&quot;value&quot;:1.91,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;05:00&quot;,&quot;value&quot;:3.18,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;06:00&quot;,&quot;value&quot;:0.68,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;07:00&quot;,&quot;value&quot;:1.39,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;08:00&quot;,&quot;value&quot;:4,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;09:00&quot;,&quot;value&quot;:0.55,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;10:00&quot;,&quot;value&quot;:1.55,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;11:00&quot;,&quot;value&quot;:1.16,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;12:00&quot;,&quot;value&quot;:1.61,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;13:00&quot;,&quot;value&quot;:3.88,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;14:00&quot;,&quot;value&quot;:5,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;15:00&quot;,&quot;value&quot;:1.51,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;16:00&quot;,&quot;value&quot;:3.28,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;17:00&quot;,&quot;value&quot;:0.52,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;18:00&quot;,&quot;value&quot;:0.76,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;19:00&quot;,&quot;value&quot;:4.18,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;20:00&quot;,&quot;value&quot;:4.47,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;21:00&quot;,&quot;value&quot;:1.3,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;22:00&quot;,&quot;value&quot;:4.13,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;23:00&quot;,&quot;value&quot;:0.56,&quot;unit&quot;:&quot;kWh&quot;}]}},{&quot;label&quot;:&quot;02-01-2024&quot;,&quot;value&quot;:68.06,&quot;unit&quot;:&quot;kWh&quot;,&quot;level&quot;:3,&quot;drilldown&quot;:{&quot;data&quot;:[{&quot;label&quot;:&quot;00:00&quot;,&quot;value&quot;:2.39,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;01:00&quot;,&quot;value&quot;:3.63,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;02:00&quot;,&quot;value&quot;:0.67,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;03:00&quot;,&quot;value&quot;:1.36,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;04:00&quot;,&quot;value&quot;:1.57,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;05:00&quot;,&quot;value&quot;:3.43,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;06:00&quot;,&quot;value&quot;:3.42,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;07:00&quot;,&quot;value&quot;:4.84,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;08:00&quot;,&quot;value&quot;:2.19,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;09:00&quot;,&quot;value&quot;:4.62,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;10:00&quot;,&quot;value&quot;:2.72,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;11:00&quot;,&quot;value&quot;:1.11,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;12:00&quot;,&quot;value&quot;:2.13,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;13:00&quot;,&quot;value&quot;:1.01,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;14:00&quot;,&quot;value&quot;:2.72,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;15:00&quot;,&quot;value&quot;:3,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;16:00&quot;,&quot;value&quot;:3.05,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;17:00&quot;,&quot;value&quot;:2,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;18:00&quot;,&quot;value&quot;:3.67,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;19:00&quot;,&quot;value&quot;:2.8,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;20:00&quot;,&quot;value&quot;:1.47,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;21:00&quot;,&quot;value&quot;:4.9,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;22:00&quot;,&quot;value&quot;:4.65,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;23:00&quot;,&quot;value&quot;:4.71,&quot;unit&quot;:&quot;kWh&quot;}]}}]}}]}}]}}]}\"></as-graph>",
     "code": "<as-graph controls markers data-data=\"[data Object]\"></as-graph>",
     "codeToken": "<code class=\"token icon\">&lt;as-graph controls markers data-data=\"[data Object]\"&gt;&lt;/as-graph&gt;</code>"
   },
   {
-    "componentName": "Graph",
-    "componentSlug": "graph",
+    "cName": "Graph",
+    "slug": "graph",
     "example": "<as-graph controls markers data-data=\"{&quot;palette&quot;:[&quot;#a6cee3&quot;,&quot;#1f78b4&quot;,&quot;#b2df8a&quot;,&quot;#33a02c&quot;,&quot;#fb9a99&quot;,&quot;#e31a1c&quot;,&quot;#fdbf6f&quot;,&quot;#ff7f00&quot;,&quot;#cab2d6&quot;,&quot;#6a3d9a&quot;,&quot;#ffff99&quot;,&quot;#b15928&quot;],&quot;resolution&quot;:7,&quot;step&quot;:3,&quot;charttype&quot;:2,&quot;title&quot;:&quot;Energy consumption&quot;,&quot;xtitle&quot;:&quot;Period&quot;,&quot;ytitle&quot;:&quot;Consumption in [kWh]&quot;,&quot;data&quot;:[{&quot;label&quot;:&quot;2024&quot;,&quot;value&quot;:127.85,&quot;unit&quot;:&quot;kWh&quot;,&quot;level&quot;:0,&quot;drilldown&quot;:{&quot;data&quot;:[{&quot;label&quot;:&quot;01-2024&quot;,&quot;value&quot;:127.85,&quot;unit&quot;:&quot;kWh&quot;,&quot;level&quot;:1,&quot;drilldown&quot;:{&quot;data&quot;:[{&quot;label&quot;:&quot;Week 1 - 2024&quot;,&quot;value&quot;:127.85,&quot;unit&quot;:&quot;kWh&quot;,&quot;level&quot;:2,&quot;drilldown&quot;:{&quot;data&quot;:[{&quot;label&quot;:&quot;01-01-2024&quot;,&quot;value&quot;:59.79,&quot;unit&quot;:&quot;kWh&quot;,&quot;level&quot;:3,&quot;drilldown&quot;:{&quot;data&quot;:[{&quot;label&quot;:&quot;00:00&quot;,&quot;value&quot;:4.48,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;01:00&quot;,&quot;value&quot;:0.84,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;02:00&quot;,&quot;value&quot;:4.85,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;03:00&quot;,&quot;value&quot;:4,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;04:00&quot;,&quot;value&quot;:1.91,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;05:00&quot;,&quot;value&quot;:3.18,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;06:00&quot;,&quot;value&quot;:0.68,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;07:00&quot;,&quot;value&quot;:1.39,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;08:00&quot;,&quot;value&quot;:4,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;09:00&quot;,&quot;value&quot;:0.55,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;10:00&quot;,&quot;value&quot;:1.55,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;11:00&quot;,&quot;value&quot;:1.16,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;12:00&quot;,&quot;value&quot;:1.61,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;13:00&quot;,&quot;value&quot;:3.88,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;14:00&quot;,&quot;value&quot;:5,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;15:00&quot;,&quot;value&quot;:1.51,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;16:00&quot;,&quot;value&quot;:3.28,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;17:00&quot;,&quot;value&quot;:0.52,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;18:00&quot;,&quot;value&quot;:0.76,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;19:00&quot;,&quot;value&quot;:4.18,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;20:00&quot;,&quot;value&quot;:4.47,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;21:00&quot;,&quot;value&quot;:1.3,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;22:00&quot;,&quot;value&quot;:4.13,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;23:00&quot;,&quot;value&quot;:0.56,&quot;unit&quot;:&quot;kWh&quot;}]}},{&quot;label&quot;:&quot;02-01-2024&quot;,&quot;value&quot;:68.06,&quot;unit&quot;:&quot;kWh&quot;,&quot;level&quot;:3,&quot;drilldown&quot;:{&quot;data&quot;:[{&quot;label&quot;:&quot;00:00&quot;,&quot;value&quot;:2.39,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;01:00&quot;,&quot;value&quot;:3.63,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;02:00&quot;,&quot;value&quot;:0.67,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;03:00&quot;,&quot;value&quot;:1.36,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;04:00&quot;,&quot;value&quot;:1.57,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;05:00&quot;,&quot;value&quot;:3.43,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;06:00&quot;,&quot;value&quot;:3.42,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;07:00&quot;,&quot;value&quot;:4.84,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;08:00&quot;,&quot;value&quot;:2.19,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;09:00&quot;,&quot;value&quot;:4.62,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;10:00&quot;,&quot;value&quot;:2.72,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;11:00&quot;,&quot;value&quot;:1.11,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;12:00&quot;,&quot;value&quot;:2.13,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;13:00&quot;,&quot;value&quot;:1.01,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;14:00&quot;,&quot;value&quot;:2.72,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;15:00&quot;,&quot;value&quot;:3,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;16:00&quot;,&quot;value&quot;:3.05,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;17:00&quot;,&quot;value&quot;:2,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;18:00&quot;,&quot;value&quot;:3.67,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;19:00&quot;,&quot;value&quot;:2.8,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;20:00&quot;,&quot;value&quot;:1.47,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;21:00&quot;,&quot;value&quot;:4.9,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;22:00&quot;,&quot;value&quot;:4.65,&quot;unit&quot;:&quot;kWh&quot;},{&quot;label&quot;:&quot;23:00&quot;,&quot;value&quot;:4.71,&quot;unit&quot;:&quot;kWh&quot;}]}}]}}]}}]}}]}\"></as-graph>",
     "code": "<as-graph controls markers data-data=\"[data Object]\"></as-graph>",
     "codeToken": "<code class=\"token icon\">&lt;as-graph controls markers data-data=\"[data Object]\"&gt;&lt;/as-graph&gt;</code>"
   },
   {
-    "componentName": "SVG to Base64",
-    "componentSlug": "svg-to-base64",
+    "cName": "SVG to Base64",
+    "slug": "svg-to-base64",
     "example": "<as-svg-to-base></as-svg-to-base>",
     "code": "<as-svg-to-base></as-svg-to-base>",
     "codeToken": "<code class=\"token icon\">&lt;as-svg-to-base&gt;&lt;/as-svg-to-base&gt;</code>"
   },
   {
-    "componentName": "Contrast checker",
-    "componentSlug": "contrast-checker",
+    "cName": "Contrast checker",
+    "slug": "contrast-checker",
     "example": "<as-contrast-checker></as-contrast-checker>",
     "code": "<as-contrast-checker></as-contrast-checker>",
     "codeToken": "<code class=\"token icon\">&lt;as-contrast-checker&gt;&lt;/as-contrast-checker&gt;</code>"
   },
   {
-    "componentName": "Tab",
-    "componentSlug": "tab",
+    "cName": "Tab",
+    "slug": "tab",
     "example": "<as-tab>Tab name</as-tab>",
     "code": "<as-tab>Tab name</as-tab>",
     "codeToken": "<code class=\"token icon\">&lt;as-tab&gt;Tab name&lt;/as-tab&gt;</code>"
   },
   {
-    "componentName": "Tab",
-    "componentSlug": "tab",
+    "cName": "Tab",
+    "slug": "tab",
     "example": "<as-tab icon-name=\"plus\">Tab name with icon</as-tab>",
     "code": "<as-tab icon-name=\"plus\">Tab name with icon</as-tab>",
     "codeToken": "<code class=\"token icon\">&lt;as-tab icon-name=\"plus\"&gt;Tab name with icon&lt;/as-tab&gt;</code>"

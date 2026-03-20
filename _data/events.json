@@ -1,357 +1,357 @@
 [
   {
-    "componentName": "Select",
-    "componentSlug": "select",
+    "cName": "Select",
+    "slug": "select",
     "name": "as-select:created",
     "description": "Fired when component is rendered. Has detail object.",
     "exampleValue": "{id: \"286d68e7-d6ad-4440-b94b-ba29bb1e5552\", action: \"created\"}"
   },
   {
-    "componentName": "Select",
-    "componentSlug": "select",
+    "cName": "Select",
+    "slug": "select",
     "name": "as-select:updated",
     "description": "Fired when component receives [updated] attribute. This should happen each time &lt;SELECT&gt; element within is being updated with JS. [updated] attribute on the component forces re-render of the component. Has detail object.",
     "exampleValue": "{id: \"286d68e7-d6ad-4440-b94b-ba29bb1e5552\", action: \"updated\"}"
   },
   {
-    "componentName": "Select",
-    "componentSlug": "select",
+    "cName": "Select",
+    "slug": "select",
     "name": "as-select:selected",
     "description": "Fired when option is selected. Has detail object.",
     "exampleValue": "{id: \"286d68e7-d6ad-4440-b94b-ba29bb1e5552\", action: \"selected\", option: \"Acid\"}"
   },
   {
-    "componentName": "Select",
-    "componentSlug": "select",
+    "cName": "Select",
+    "slug": "select",
     "name": "as-select:show",
     "description": "Fired when dropdown is shown. Has detail object.",
     "exampleValue": "{id: \"286d68e7-d6ad-4440-b94b-ba29bb1e5552\", action: \"show\"}"
   },
   {
-    "componentName": "Select",
-    "componentSlug": "select",
+    "cName": "Select",
+    "slug": "select",
     "name": "as-select:hide",
     "description": "Fired when dropdown is hid. Has detail object.",
     "exampleValue": "{id: \"286d68e7-d6ad-4440-b94b-ba29bb1e5552\", action: \"hide\"}"
   },
   {
-    "componentName": "Select",
-    "componentSlug": "select",
+    "cName": "Select",
+    "slug": "select",
     "name": "as-select:search",
     "description": "Fired when user start typing within component's &lt;INPUT&gt; element. Has detail object.",
     "exampleValue": "{id: \"286d68e7-d6ad-4440-b94b-ba29bb1e5552\", action: \"search\", searchword: \"Lorem ipsum\"}"
   },
   {
-    "componentName": "Select Multiple",
-    "componentSlug": "select-multiple",
+    "cName": "Select Multiple",
+    "slug": "select-multiple",
     "name": "as-select-multiple:created",
     "description": "Fired when component is rendered. Has detail object.",
     "exampleValue": "{id: \"94899fa0-8732-4e35-b419-9aa93360865b\", action: \"created\"}"
   },
   {
-    "componentName": "Select Multiple",
-    "componentSlug": "select-multiple",
+    "cName": "Select Multiple",
+    "slug": "select-multiple",
     "name": "as-select-multiple:show",
     "description": "Fired when dropdown is shown. Has detail object.",
     "exampleValue": "{id: \"94899fa0-8732-4e35-b419-9aa93360865b\", action: \"show\"}"
   },
   {
-    "componentName": "Select Multiple",
-    "componentSlug": "select-multiple",
+    "cName": "Select Multiple",
+    "slug": "select-multiple",
     "name": "as-select-multiple:hide",
     "description": "Fired when dropdown is hid. Has detail object.",
     "exampleValue": "{id: \"94899fa0-8732-4e35-b419-9aa93360865b\", action: \"hide\"}"
   },
   {
-    "componentName": "Select Multiple",
-    "componentSlug": "select-multiple",
+    "cName": "Select Multiple",
+    "slug": "select-multiple",
     "name": "as-select-multiple:selected",
     "description": "Fired when option is selected. Has detail object.",
     "exampleValue": "{id: \"94899fa0-8732-4e35-b419-9aa93360865b\", action: \"selected\", name: \"Arsenic\", value: \"1\"}"
   },
   {
-    "componentName": "Select Multiple",
-    "componentSlug": "select-multiple",
+    "cName": "Select Multiple",
+    "slug": "select-multiple",
     "name": "as-select-multiple:deselected",
     "description": "Fired when option is deselected. Has detail object.",
     "exampleValue": "{id: \"94899fa0-8732-4e35-b419-9aa93360865b\", action: \"deselected\", name: \"Spider venom\", value: \"4\"}"
   },
   {
-    "componentName": "Select Multiple",
-    "componentSlug": "select-multiple",
+    "cName": "Select Multiple",
+    "slug": "select-multiple",
     "name": "as-select-multiple:search",
     "description": "Fired when user start typing within component's &lt;INPUT&gt; element. Has detail object.",
     "exampleValue": "{id: \"94899fa0-8732-4e35-b419-9aa93360865b\", action: \"search\", searchword: \"acid\"}"
   },
   {
-    "componentName": "Select 2 Range",
-    "componentSlug": "select-2-range",
+    "cName": "Select 2 Range",
+    "slug": "select-2-range",
     "name": "as-select2range:created",
     "description": "Fired when component is rendered. Has detail object.",
     "exampleValue": "{id: \"79d95b10-ecc4-42ca-b893-8e23b01f17da\", action: \"created\"}"
   },
   {
-    "componentName": "Select 2 Range",
-    "componentSlug": "select-2-range",
+    "cName": "Select 2 Range",
+    "slug": "select-2-range",
     "name": "as-select2range:created",
     "description": "Fired when component is not created due to element not being &lt;SELECT multiple&gt;. Throws console error. Has detail object.",
     "exampleValue": "{id: \"79d95b10-ecc4-42ca-b893-8e23b01f17da\", action: \"not-created\"}"
   },
   {
-    "componentName": "Select 2 Range",
-    "componentSlug": "select-2-range",
+    "cName": "Select 2 Range",
+    "slug": "select-2-range",
     "name": "as-select2range:selected",
     "description": "Fired when option is selected. Has detail object.",
     "exampleValue": "{id: \"79d95b10-ecc4-42ca-b893-8e23b01f17da\", action: \"selected\", name: \"Arsenic\", value: \"1\"}"
   },
   {
-    "componentName": "Popout",
-    "componentSlug": "popout",
+    "cName": "Popout",
+    "slug": "popout",
     "name": "as-popout:created",
     "description": "Fired when component is rendered. Has detail object.",
     "exampleValue": "{id: \"79d95b10-ecc4-42ca-b893-8e23b01f17da\", action: \"created\"}"
   },
   {
-    "componentName": "Popout",
-    "componentSlug": "popout",
+    "cName": "Popout",
+    "slug": "popout",
     "name": "as-popout:toggle",
     "description": "Fired when popout is opened. Has detail object.",
     "exampleValue": "{id: \"79d95b10-ecc4-42ca-b893-8e23b01f17da\", state: \"open\"}"
   },
   {
-    "componentName": "Popout",
-    "componentSlug": "popout",
+    "cName": "Popout",
+    "slug": "popout",
     "name": "as-popout:toggle",
     "description": "Fired when popout is closed. Has detail object.",
     "exampleValue": "{id: \"79d95b10-ecc4-42ca-b893-8e23b01f17da\", state: \"close\"}"
   },
   {
-    "componentName": "Panel",
-    "componentSlug": "panel",
+    "cName": "Panel",
+    "slug": "panel",
     "name": "as-panel:created",
     "description": "Fired when component is rendered. Has detail object.",
     "exampleValue": "{id: \"79d95b10-ecc4-42ca-b893-8e23b01f17da\"}"
   },
   {
-    "componentName": "Panel",
-    "componentSlug": "panel",
+    "cName": "Panel",
+    "slug": "panel",
     "name": "as-panel:toggle",
     "description": "Fired when component has toggled. Has detail object.",
     "exampleValue": "{id: \"79d95b10-ecc4-42ca-b893-8e23b01f17da\", state: 'open'}"
   },
   {
-    "componentName": "Panel",
-    "componentSlug": "panel",
+    "cName": "Panel",
+    "slug": "panel",
     "name": "as-panel:toggle",
     "description": "Fired when component has toggled. Has detail object.",
     "exampleValue": "{id: \"79d95b10-ecc4-42ca-b893-8e23b01f17da\", state: 'closed'}"
   },
   {
-    "componentName": "Table Search & Sort",
-    "componentSlug": "table-search-sort",
+    "cName": "Table Search & Sort",
+    "slug": "table-search-sort",
     "name": "as-table-sort:created",
     "description": "Fired when component is created. Has detail object.",
     "exampleValue": "{id: \"ba6fdbe1-f6c0-4af9-baef-af9aa4fa6a5c\", action: \"created\"}"
   },
   {
-    "componentName": "Table Search & Sort",
-    "componentSlug": "table-search-sort",
+    "cName": "Table Search & Sort",
+    "slug": "table-search-sort",
     "name": "as-table-sort:created",
     "description": "Fired when component detects that there's no table to work with within component. Has detail object.",
     "exampleValue": "{id: \"ba6fdbe1-f6c0-4af9-baef-af9aa4fa6a5c\", action: \"not-created\"}"
   },
   {
-    "componentName": "Table Search & Sort",
-    "componentSlug": "table-search-sort",
+    "cName": "Table Search & Sort",
+    "slug": "table-search-sort",
     "name": "as-table-sort:sorted",
     "description": "Fired when any of the columns is being sorted. Has detail object.",
     "exampleValue": "{id: \"ba6fdbe1-f6c0-4af9-baef-af9aa4fa6a5c\", action: \"sorted\", column: \"PropID\", direction: \"desc\"}"
   },
   {
-    "componentName": "Table Search & Sort",
-    "componentSlug": "table-search-sort",
+    "cName": "Table Search & Sort",
+    "slug": "table-search-sort",
     "name": "as-table-sort:sorted",
     "description": "Fired when sorting is being reset to default. Has detail object.",
     "exampleValue": "{id: \"ba6fdbe1-f6c0-4af9-baef-af9aa4fa6a5c\", action: \"delete\"}"
   },
   {
-    "componentName": "Table Search & Sort",
-    "componentSlug": "table-search-sort",
+    "cName": "Table Search & Sort",
+    "slug": "table-search-sort",
     "name": "as-table-sort:filtered",
     "description": "Fired when any of the columns is being filtered. Has detail object.",
     "exampleValue": "{id: \"ba6fdbe1-f6c0-4af9-baef-af9aa4fa6a5c\", action: \"filtered\", column: \"PropID\", searchword: \"p00\"}"
   },
   {
-    "componentName": "Table Search & Sort",
-    "componentSlug": "table-search-sort",
+    "cName": "Table Search & Sort",
+    "slug": "table-search-sort",
     "name": "as-table-sort:filtered",
     "description": "Fired when filters are being set to default. Has detail object.",
     "exampleValue": "{id: \"ba6fdbe1-f6c0-4af9-baef-af9aa4fa6a5c\", action: \"delete\"}"
   },
   {
-    "componentName": "Table Actions",
-    "componentSlug": "table-actions",
+    "cName": "Table Actions",
+    "slug": "table-actions",
     "name": "as-table-actions:popover",
     "description": "Fired when popover with action buttons is opened. Has detail object.",
     "exampleValue": "{id: \"53935d58-9511-493c-9a6b-d54dd73b44d8\", state: \"open\"}"
   },
   {
-    "componentName": "Table Actions",
-    "componentSlug": "table-actions",
+    "cName": "Table Actions",
+    "slug": "table-actions",
     "name": "as-table-actions:popover",
     "description": "Fired when popover with action buttons is closed. Has detail object.",
     "exampleValue": "{id: \"53935d58-9511-493c-9a6b-d54dd73b44d8\", state: \"close\"}"
   },
   {
-    "componentName": "Drawer",
-    "componentSlug": "drawer",
+    "cName": "Drawer",
+    "slug": "drawer",
     "name": "as-drawer:created",
     "description": "Fired when component is instantiated, has detail object.",
     "exampleValue": "{id: \"b69f4038-c222-401c-927d-5f1e0e3101bc\", position: \"bottom\"}"
   },
   {
-    "componentName": "Drawer",
-    "componentSlug": "drawer",
+    "cName": "Drawer",
+    "slug": "drawer",
     "name": "as-drawer:before-open",
     "description": "Fired when component is about to be opened, has detail object.",
     "exampleValue": "{id: \"b69f4038-c222-401c-927d-5f1e0e3101bc\", position: \"bottom\"}"
   },
   {
-    "componentName": "Drawer",
-    "componentSlug": "drawer",
+    "cName": "Drawer",
+    "slug": "drawer",
     "name": "as-drawer:after-open",
     "description": "Fired when component has finished opening and transition time has elapsed, has detail object.",
     "exampleValue": "{id: \"b69f4038-c222-401c-927d-5f1e0e3101bc\", position: \"bottom\"}"
   },
   {
-    "componentName": "Drawer",
-    "componentSlug": "drawer",
+    "cName": "Drawer",
+    "slug": "drawer",
     "name": "as-drawer:before-close",
     "description": "Fired when component is about to be closed, has detail object.",
     "exampleValue": "{id: \"b69f4038-c222-401c-927d-5f1e0e3101bc\", position: \"bottom\"}"
   },
   {
-    "componentName": "Drawer",
-    "componentSlug": "drawer",
+    "cName": "Drawer",
+    "slug": "drawer",
     "name": "as-drawer:after-close",
     "description": "Fired when component has finished closing and transition time has elapsed, has detail object.",
     "exampleValue": "{id: \"b69f4038-c222-401c-927d-5f1e0e3101bc\", position: \"bottom\"}"
   },
   {
-    "componentName": "Table Actions",
-    "componentSlug": "table-actions",
+    "cName": "Table Actions",
+    "slug": "table-actions",
     "name": "as-table-actions:download",
     "description": "Fired when COPY button is clicked, has detail object.",
     "exampleValue": "{id: \"53935d58-9511-493c-9a6b-d54dd73b44d8\", type: \"copy\", data: \"[tab separated table data]\"}"
   },
   {
-    "componentName": "Table Actions",
-    "componentSlug": "table-actions",
+    "cName": "Table Actions",
+    "slug": "table-actions",
     "name": "as-table-actions:download",
     "description": "Fired when MD button is clicked, has detail object.",
     "exampleValue": "{id: \"53935d58-9511-493c-9a6b-d54dd73b44d8\", type: \"md\", data: \"[markdown data]\"}"
   },
   {
-    "componentName": "Table Actions",
-    "componentSlug": "table-actions",
+    "cName": "Table Actions",
+    "slug": "table-actions",
     "name": "as-table-actions:download",
     "description": "Fired when XLS button is clicked, has detail object.",
     "exampleValue": "{id: \"53935d58-9511-493c-9a6b-d54dd73b44d8\", type: \"xls\", data: \"[XLS data]\"}"
   },
   {
-    "componentName": "Table Actions",
-    "componentSlug": "table-actions",
+    "cName": "Table Actions",
+    "slug": "table-actions",
     "name": "as-table-actions:download",
     "description": "Fired when CSV button is clicked, has detail object.",
     "exampleValue": "{id: \"53935d58-9511-493c-9a6b-d54dd73b44d8\", type: \"csv\", data: \"[CSV data]\"}"
   },
   {
-    "componentName": "Date Picker",
-    "componentSlug": "date-picker",
+    "cName": "Date Picker",
+    "slug": "date-picker",
     "name": "as-date-picker:created",
     "description": "Fires when date picker component is created. Has detail object.",
     "exampleValue": "{id: \"9a42cd92-e064-4f3d-986f-4166f3708559\"}"
   },
   {
-    "componentName": "Date Picker",
-    "componentSlug": "date-picker",
+    "cName": "Date Picker",
+    "slug": "date-picker",
     "name": "as-date-picker:breakpoint",
     "description": "Fires when date picker checks breakpoint value to modify component behaviour. Has detail object.",
     "exampleValue": "{id: \"9a42cd92-e064-4f3d-986f-4166f3708559\", breakpoint: \"desktop\"}</br></br>{id: \"9a42cd92-e064-4f3d-986f-4166f3708559\", breakpoint: \"mobile\"}"
   },
   {
-    "componentName": "Date Picker",
-    "componentSlug": "date-picker",
+    "cName": "Date Picker",
+    "slug": "date-picker",
     "name": "as-date-picker:open",
     "description": "Fires when calendar popout is shown. Has detail object.",
     "exampleValue": "{id: \"9a42cd92-e064-4f3d-986f-4166f3708559\"}"
   },
   {
-    "componentName": "Date Picker",
-    "componentSlug": "date-picker",
+    "cName": "Date Picker",
+    "slug": "date-picker",
     "name": "as-date-picker:closed",
     "description": "Fires when calendar popout is closed. Has detail object.",
     "exampleValue": "{id: \"9a42cd92-e064-4f3d-986f-4166f3708559\"}"
   },
   {
-    "componentName": "Date Picker",
-    "componentSlug": "date-picker",
+    "cName": "Date Picker",
+    "slug": "date-picker",
     "name": "as-date-picker:changed",
     "description": "Fires when user picks another date. Has detail object.",
     "exampleValue": "{id: \"9a42cd92-e064-4f3d-986f-4166f3708559\", date: \"2025-11-01\", changed: [\"day\"]}</br></br>{id: \"9a42cd92-e064-4f3d-986f-4166f3708559\", date: \"2025-11-01\", changed: [\"month\"]}</br></br>{id: \"9a42cd92-e064-4f3d-986f-4166f3708559\", date: \"2025-11-01\", changed: [\"year\"]}"
   },
   {
-    "componentName": "Tab Group",
-    "componentSlug": "tab-group",
+    "cName": "Tab Group",
+    "slug": "tab-group",
     "name": "as-tab-group:created",
     "description": "Fired when component is instantiated. Has detail object.",
     "exampleValue": "{id: \"a\", tabs: \"b1,c1,d1,e1\"}"
   },
   {
-    "componentName": "Show / Hide Password",
-    "componentSlug": "show-hide-password",
+    "cName": "Show / Hide Password",
+    "slug": "show-hide-password",
     "name": "as-show-hide-password:show",
     "description": "Fires when password is shown. Has no detail object.",
     "exampleValue": ""
   },
   {
-    "componentName": "Show / Hide Password",
-    "componentSlug": "show-hide-password",
+    "cName": "Show / Hide Password",
+    "slug": "show-hide-password",
     "name": "as-show-hide-password:hide",
     "description": "Fires when password is hidden. Has no detail object.",
     "exampleValue": ""
   },
   {
-    "componentName": "Tab Group",
-    "componentSlug": "tab-group",
+    "cName": "Tab Group",
+    "slug": "tab-group",
     "name": "as-tab-group:selected",
     "description": "Fired when component tab is clicked and selected. Has detail object.",
     "exampleValue": "{id: \"a\", tab: \"b1\"}"
   },
   {
-    "componentName": "Character Counter",
-    "componentSlug": "character-counter",
+    "cName": "Character Counter",
+    "slug": "character-counter",
     "name": "as-char-counter:created",
     "description": "Fired when component is created. Has detail object.",
     "exampleValue": "{id: \"ccf267d0-2775-4c59-8766-5a627e8b5bf3\", fieldid: \"#mytextarea\"}"
   },
   {
-    "componentName": "Character Counter",
-    "componentSlug": "character-counter",
+    "cName": "Character Counter",
+    "slug": "character-counter",
     "name": "as-char-counter:count",
     "description": "Fired when count changes",
     "exampleValue": "{id: \"ccf267d0-2775-4c59-8766-5a627e8b5bf3\", fieldid: \"#mytextarea\", chars: 17, texts: 1}"
   },
   {
-    "componentName": "Form Validation",
-    "componentSlug": "form-validation",
+    "cName": "Form Validation",
+    "slug": "form-validation",
     "name": "as-form-validation:success",
     "description": "Fired when field validation returns no error. Has detail object.",
     "exampleValue": "{fieldid: 'myemail'}"
   },
   {
-    "componentName": "Form Validation",
-    "componentSlug": "form-validation",
+    "cName": "Form Validation",
+    "slug": "form-validation",
     "name": "as-form-validation:error",
     "description": "Fired when field validation error. Has detail object",
     "exampleValue": "{fieldid: 'myemail', type: 'valueMissing', message: 'This field is required'}"

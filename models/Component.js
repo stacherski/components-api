@@ -3,10 +3,10 @@ const mongoose = require("mongoose");
 const PropertySchema = new mongoose.Schema(
   {
     name: { type: String, required: true },
-    type: { type: String, required: true },
     default: { type: mongoose.Schema.Types.Mixed },
-    required: { type: Boolean, default: false },
     description: { type: String },
+    propertyType: { type: String },
+    optional: { type: String, required: true },
   },
   { _id: false },
 );
@@ -14,7 +14,7 @@ const PropertySchema = new mongoose.Schema(
 const EventSchema = new mongoose.Schema(
   {
     name: { type: String, required: true },
-    example: { type: String },
+    exampleValue: { type: String },
     description: { type: String },
   },
   { _id: false },
