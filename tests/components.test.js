@@ -1,6 +1,8 @@
+require("dotenv").config();
 const request = require("supertest");
 
-const API = "http://localhost:8080/api/components";
+const API =
+  "http://localhost:8080/api/components?=api_key=" + process.env.API_KEY;
 
 describe("Components API (live server)", () => {
   let createdId;
