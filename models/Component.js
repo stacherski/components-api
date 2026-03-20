@@ -37,10 +37,6 @@ const componentSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  examples: {
-    type: [Object],
-    required: false,
-  },
   properties: { type: [PropertySchema], default: [], required: false },
   events: { type: [EventSchema], default: [], required: false },
   examples: { type: [ExampleSchema], default: [], required: false },
