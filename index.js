@@ -1,6 +1,7 @@
 require("dotenv").config();
 
 const express = require("express");
+const compression = require("compression");
 const mongoose = require("mongoose");
 const apiKey = require("./middleware/apiKey");
 const app = express();
@@ -17,7 +18,15 @@ db.once("open", () => console.log("Connected to database"));
 
 const PORT = process.env.PORT;
 
-app.use(apiKey).set("x-api-key", process.env.API_KEY);
+app.use(compression());
+
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Headers", "x-api-key, Content-Type");
+  next();
+});
+app.set("x-api-key", process.env.API_KEY);
+
+app.use(apiKey);
 
 app.use(express.json());
 

@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "bson": "^7.2.0",
+    "compression": "^1.8.1",
     "express": "^5.2.1",
     "mongodb": "^7.1.0",
     "mongoose": "^9.3.1"
